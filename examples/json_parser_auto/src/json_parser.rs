@@ -4,6 +4,8 @@
 // lost after next build.
 // ---------------------------------------------------------
 
+#![allow(clippy::all)]
+
 use parol_runtime::id_tree::Tree;
 use parol_runtime::lexer::{TokenStream, Tokenizer};
 use parol_runtime::miette::Result;

@@ -4,6 +4,8 @@
 // lost after next build.
 // ---------------------------------------------------------
 
+#![allow(clippy::all)]
+
 use parol_runtime::id_tree::Tree;
 
 use crate::json_grammar::JsonGrammar;

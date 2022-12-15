@@ -4,6 +4,8 @@
 // lost after next build.
 // ---------------------------------------------------------
 
+#![allow(clippy::all)]
+
 use parol_runtime::id_tree::Tree;
 {{#auto_generate?}}use parol_runtime::derive_builder::Builder;{{/auto_generate}}
 {{#auto_generate?}}#[allow(unused_imports)]
